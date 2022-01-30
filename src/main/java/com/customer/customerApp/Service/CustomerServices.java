@@ -1,7 +1,8 @@
-package com.customer.customerApp;
+package Service;
 
 
 
+import Data.Customer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

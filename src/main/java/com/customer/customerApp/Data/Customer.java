@@ -1,4 +1,4 @@
-package com.customer.customerApp;
+package Data;
 
 
 import javax.persistence.Column;

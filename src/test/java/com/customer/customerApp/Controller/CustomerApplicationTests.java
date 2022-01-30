@@ -1,13 +1,14 @@
-package com.customer.customerApp;
+package com.topics.Topics;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CustomerAppApplicationTests {
+class Customer {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
+
