@@ -1,7 +1,7 @@
-package Repository;
+package com.customer.customerApp.Repository;
 
 
-import Data.Customer;
+import com.customer.customerApp.Data.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
