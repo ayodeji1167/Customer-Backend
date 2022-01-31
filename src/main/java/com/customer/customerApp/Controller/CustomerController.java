@@ -3,8 +3,8 @@ package com.customer.customerApp.Controller;
 import com.customer.customerApp.Data.Customer;
 import com.customer.customerApp.Service.CustomerServiceImplementation;
 
-import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,16 +24,10 @@ public class CustomerController {
     }
 
     @RequestMapping(method = RequestMethod.POST, value = "/customers")
-    @PostMapping("/customers")
     public void addCustomers(@RequestBody Customer customer) {
 
         customerServices.createCustomer(customer);
     }
-
-
-
-
-
 
     @RequestMapping("/customer/{id}")
     public Optional<Customer> getCustomerById(@PathVariable int id) {
