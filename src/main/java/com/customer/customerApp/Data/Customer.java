@@ -14,19 +14,16 @@ import javax.persistence.*;
 public class Customer {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "name")
+
     private String name;
 
-    @Column(name = "email")
+
     private String email;
 
-    @Column(name = "salary")
+
     private double salary;
-
-
 
 
 }

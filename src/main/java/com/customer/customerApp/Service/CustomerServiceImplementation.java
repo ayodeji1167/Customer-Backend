@@ -23,7 +23,7 @@ public class CustomerServiceImplementation implements CustomerServices {
     }
 
     public List<Customer> findAll() {
-        return  customerRepository.findAll();
+        return customerRepository.findAll();
     }
 
     public Optional<Customer> getById(Integer id) {
