@@ -5,6 +5,7 @@ import lombok.Data;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
 
 
 @Entity
@@ -19,7 +20,7 @@ public class Customer {
 
     private String name;
 
-
+    @Email
     private String email;
 
 
